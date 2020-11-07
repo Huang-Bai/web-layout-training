@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*正本開始*/
+body{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Noto Sans', 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mb72{
+    margin-bottom: 72px;
+}
+h1{
+    font-size: 80px;
+    line-height: 94px;
+    padding-top: 47px;
+    padding-bottom: 17px;
+    border-bottom: solid 2px black;
+}
+img{
+    vertical-align: top;
+}
+.photo{
+    padding: 48px 0;
+}
+h2{
+    font-size: 32px;
+    line-height: 43px; 
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+}
+.entitle {
+    line-height: 28px;
+    color:#A00404;
+    margin-left: 16px;
+}
+li{
+    margin-bottom: 24px;
+}
+.edu li{
+    line-height: 34px;
+}
+.bgBox {
+    padding-top: 24px;
+    background: #415165;
+    color: white;
+    padding-bottom: 16px;
+}
+.bgBox h2{
+    width: 996px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+.bgBox .entitle{
+    color: white;
+}
+.skill ul{
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.skill li{
+    line-height: 28px;
+    margin-bottom: 20px;
+} 
+.work ul{
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.work li{
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 24px;
+}
+.work p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.work img{
+    width: 90px;
+    height: 90px;
+    margin: 8px 0;
+}
+.footer li{
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 16px;
+}
+.footer img{
+    padding: 0 12px;
+}
