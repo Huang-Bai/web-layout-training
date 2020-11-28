@@ -52,6 +52,10 @@ table {
 body {
     font-family: 'Roboto', sans-serif;
 }
+@keyframes big{
+	0% {transform: scale(1)}
+	50% {transform: scale(1.2)}
+}
 
 /*共通設定*/
 .m-auto{
@@ -162,6 +166,12 @@ body {
 .banner li{
 	padding: 0 8px;
 }
+.banner a :hover {
+	animation-name: big; 
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
+}
+
 .work li{
 	margin-bottom: 32px;
 }
@@ -201,4 +211,10 @@ body {
 .footer a{
 	text-decoration:none;
 	color:#fff;
+	scale: 1;
+}
+.footer a :hover {
+	animation-name: big; 
+	animation-iteration-count: 1;
+	animation-duration: 0.5s;
 }
